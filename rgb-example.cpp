@@ -124,7 +124,7 @@ int main()
 
     /// Before calling close you must disconnect all connections previously created.
     null_sink.disconnect();
-    camera.disconnect();
+//    camera.disconnect();//causes crash
 
     /// By calling close you will disable all ports and pools of each component.
     null_sink.close();
